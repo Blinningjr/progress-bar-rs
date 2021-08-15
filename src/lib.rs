@@ -4,9 +4,9 @@ use std::io::Write;
  * Progress bar stuct that keeps track of the state and all the settings.
  */
 pub struct ProgressBar {
-    name: String,
-    progress: u32,
-    count: u32,
+    name: String,               // Name of the task
+    progress: u32,              // Number of steps currently completed
+    count: u32,                 // Number of steps to compete the task
     pub length: u32,            // Length of the bar
     pub start_char: char,       // Start char of the bar
     pub end_char: char,         // End char of the bar
