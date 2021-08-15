@@ -25,7 +25,7 @@ impl ProgressBar {
             name: name,
             progress: 0,
             count: count,
-            length: 100,
+            length: 30,
             start_char: '[',
             end_char: ']',
             progress_char: '=',
